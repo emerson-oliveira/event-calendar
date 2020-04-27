@@ -1,0 +1,38 @@
+{
+    "name": "lottaleben/event-calendar",
+    "description": "Events calendar",
+    "authors": [
+        {
+            "name": "Emerson Oliveira",
+            "email": "emerson-ods@hotmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4" : {
+    		"Includes\\": "./includes"
+        },
+        "files": [
+            "vendor/meta-box/meta-box/meta-box.php",
+            "vendor/meta-box/mb-rest-api/mb-rest-api.php",
+            "vendor/meta-box/mb-relationships/mb-relationships.php"
+        ]
+    },
+    "repositories":[
+        {
+          "type": "composer",
+          "url": "https://wpackagist.org"
+        }
+      ],
+      "require": {
+        "wpackagist-plugin/meta-box": "dev-trunk",
+        "wpackagist-plugin/mb-rest-api": "dev-trunk",
+        "wpackagist-plugin/mb-relationships": "dev-trunk"
+      },
+      "extra": {
+        "installer-paths": {
+          "vendor/meta-box/meta-box/": ["wpackagist-plugin/meta-box"],
+          "vendor/meta-box/mb-rest-api/": ["wpackagist-plugin/mb-rest-api"],
+          "vendor/meta-box/mb-relationships/": ["wpackagist-plugin/mb-relationships"]
+        }
+      }
+}
