@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name:       Event Calendar Final
+ * Plugin Name:       Event Calendar
  * Description:       Simple plug-in to record events.
  * Version:           1.0.0
  * Requires at least: 5.4

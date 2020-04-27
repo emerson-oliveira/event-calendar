@@ -1,6 +1,7 @@
 <?php
 
-/** @package Event Calendar
+/** 
+ * @package Event Calendar
  *  Template Default 
  */
 
